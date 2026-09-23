@@ -1,0 +1,23 @@
+draft.html
+temp-data/
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Audio files served from R2 in production
+frontend/public/audio/
+
+<<<<<<< HEAD
+# Wrangler cache
+frontend/.wrangler/
+=======
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+>>>>>>> edce51422b6b767b766e51bbeab7516eeb0ecadc
